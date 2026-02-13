@@ -8,11 +8,9 @@ public class Array2 {
         int cols=sc.nextInt();
         int i,j;
         for( i=0;i<rows;i++){
-            System.out.println("Enter "+(i+1)+" number");
-            a[i]=sc,nextInt();
-            for( j=1;j<cols;j++){
-                System.out.println("Enter "+(j+1)+" number");
-                a[j]=sc.nextInt();
+            for( j=0;j<cols;j++){
+                System.out.println("Enter number");
+                a[i][j]=sc.nextInt();
             }
             
 
