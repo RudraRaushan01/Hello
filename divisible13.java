@@ -1,5 +1,5 @@
+// Divisible by 13
 import java.util.Scanner;
-
 public class divisible13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -22,3 +22,4 @@ public class divisible13 {
         return remainder == 0;
     }
 }
+
